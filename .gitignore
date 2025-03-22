@@ -1,0 +1,66 @@
+# Python
+Pipeline/__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual environments
+venv/
+ENV/
+env/
+.env/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Project specific
+static/
+temp/
+static/*_plots/
+templates/
+*.csv
+Pipeline/CSV Input Files/*.csv
+Analysis/CSV Input Files/*.csv
+Report/data/*.csv
+Budget Allocation/*.csv
+Budget Allocation/CSV Input Files/*.csv
+Channel Allocation/CSV Input Files/final_featured.csv
+Sales Allocation/*.csv
+Sales Allocation/CSV Input Files/*.csv
+*.xlsx
+*.xls
+
+# OS specific
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# IDE specific
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Logs
+*.log
+logs/ 
